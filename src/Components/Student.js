@@ -1,7 +1,7 @@
 import React from 'react'
 
-function Student(props) {
-    const student = props.student
+function Student({student}) {
+    
     return (
 
         <div className="student">
